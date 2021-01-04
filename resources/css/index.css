@@ -5,3 +5,15 @@ h1 {
 	font-family: 'IBM Plex Mono', monospace;
 	color: #F5DF4D; /* PANTONE Illuminating */
 }
+a {
+	text-decoration: none;
+}
+p {
+	font-family: 'IBM Plex Mono', monospace; 
+	color: #F5DF4D;
+}
+.centerImage
+{
+ text-align:center;
+ display:block;
+}
