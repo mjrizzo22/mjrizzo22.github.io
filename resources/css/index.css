@@ -2,18 +2,32 @@ body {
   background-color: #939597; /* PANTONE Ultimate Gray */
 }
 h1 {
-	font-family: 'IBM Plex Mono', monospace;
-	color: #F5DF4D; /* PANTONE Illuminating */
+  font-family: 'IBM Plex Mono', monospace;
+  color: #F5DF4D; /* PANTONE Illuminating */
+  text-align: center;
 }
-a {
-	text-decoration: none;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:15%;
 }
-p {
-	font-family: 'IBM Plex Mono', monospace; 
-	color: #F5DF4D;
+.nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  color: #939597;
+  list-style: none;
+  margin: 0; 
 }
-.centerImage
-{
- text-align:center;
- display:block;
+.nav a {
+  font-family: 'IBM Plex Mono', monospace;
+  text-decoration: none;
+  display: block;
+  padding: .25em;
+  color: #F5DF4D;
+}
+.nav a:hover {
+  background: #F5DF4D;
+  color: #939597;
 }
