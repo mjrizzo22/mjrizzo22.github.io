@@ -1,34 +1,35 @@
 body {
-  background-color: #939597; /* PANTONE Ultimate Gray */
+  background-color: #939597; /* PANTONE Ultimate Gray 17-5104 TCX */
 }
-h1 {
+h2 {
   font-family: 'IBM Plex Mono', monospace;
-  color: #F5DF4D; /* PANTONE Illuminating */
-  text-align: center;
+  font-weight:100;
+  color: #F5DF4D; /* PANTONE Illuminating 13-0647 TCX */
 }
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50%;
-  height: auto;
+p {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight:300;
+  color: #00589B; /* PANTONE 19-4151 TCX */ 
 }
+
 .nav {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+  flex-flow: row;
+  justify-content: left;
   color: #939597;
   list-style: none;
   margin: 0; 
 }
 .nav a {
   font-family: 'IBM Plex Mono', monospace;
+  font-weight:300;
   text-decoration: none;
   display: block;
   padding: .25em;
   color: #F5DF4D;
 }
 .nav a:hover {
+  font-weight:100;
   background: #F5DF4D;
   color: #939597;
 }
