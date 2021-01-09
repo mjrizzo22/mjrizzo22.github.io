@@ -1,35 +1,40 @@
 body {
   background-color: #939597; /* PANTONE Ultimate Gray 17-5104 TCX */
 }
+h1 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight:300;
+  color: #00589B; /* PANTONE Skydiver 19-4151 TCX */ 
+}
 h2 {
   font-family: 'IBM Plex Mono', monospace;
-  font-weight:100;
-  color: #F5DF4D; /* PANTONE Illuminating 13-0647 TCX */
+  font-weight:300;
+  color: #00589B; /* PANTONE Skydiver 19-4151 TCX */ 
 }
 p {
   font-family: 'IBM Plex Mono', monospace;
   font-weight:300;
-  color: #00589B; /* PANTONE 19-4151 TCX */ 
+  color: #F5DF4D; /* PANTONE Illuminating 13-0647 TCX */
 }
 
-.nav {
+.navbar-nav {
   display: flex;
   flex-flow: row;
   justify-content: left;
-  color: #939597;
   list-style: none;
   margin: 0; 
 }
-.nav a {
+.navbar-nav a {
   font-family: 'IBM Plex Mono', monospace;
-  font-weight:300;
+  font-weight: 300;
   text-decoration: none;
   display: block;
+  font-size:18px;
   padding: .25em;
   color: #F5DF4D;
 }
-.nav a:hover {
-  font-weight:100;
+.navbar-nav a:hover {
+  font-weight:300;
   background: #F5DF4D;
   color: #939597;
 }
